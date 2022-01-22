@@ -1,0 +1,18 @@
+{
+    "id": 261291,
+    "category": {
+        "id": 261291,
+        "name": "Nina"
+    },
+    "name": "Nina",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 261291,
+            "name": "Nina"
+        }
+    ],
+    "status": "available"
+}
