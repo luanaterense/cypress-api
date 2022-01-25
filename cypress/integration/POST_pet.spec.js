@@ -25,11 +25,11 @@ it('POST por body descrito: Deve realizar a inclusão do pet de código 261291',
 
 
 it('POST por arquivo JSON: Deve realizar a inclusão do pet de código 261291', () => { 
-    cy.fixture('pet').then(myFixture => {
+    cy.fixture('pet').then(json => {
     cy.request({
         method: 'POST',
         url: 'https://petstore.swagger.io/v2/pet',
-        body: myFixture
+        body: json
     })
 })
 })
